@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Press+Start+2P&display=swap');
+body{
+    font-family: "Cinzel", serif;
+    min-height: 100vh;
+;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .pokedex{
+    display: flex;
+    gap: 30px;
+  
+ }
+

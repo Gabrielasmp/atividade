@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+        input {
+            margin-bottom: 10px;
+            padding: 5px;
+            width: 200px;
+            height: 20px;
+        }
+        button {
+            padding: 7px 15px;
+            background-color: white;
+            
+        }
+        #resultado {
+            margin-top: 20px;
+            font-weight: bold;
+      
+        }
+        label{ 
+            font-weight: bold;
+            font-size: 20px;
+        }
+        p{
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+    <label>Calculadora de Desconto</label>
+    <p>Preço do produto:</p>
+    <input type="text" id="preco" placeholder="Ex: 100.00" >
+
+    <p>Porcentagem de desconto (%)</p>
+    <input type="text" id="desconto"placeholder="Ex: 10 ">
+
+    <button onclick="calcularDesconto()">Calcular</button>
+
+    <div id="resultado"></div>
+
+
+    <script src="desconto.js"></script>
+    
+</body>
+
+</html>

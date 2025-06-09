@@ -1,0 +1,19 @@
+.classe1{
+    width: 80px;
+    height: 50px;
+    padding: 100px;
+    border: 200px  green;
+   
+   
+}
+.classe2{
+    background-color: grey;
+    color: aqua;
+   
+}
+.classe3{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+    background-color:lightseagreen ;
+}
